@@ -1,12 +1,17 @@
 # aptus_rock64
 ## Aptus Rock64 Development
 
+https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz
+
 ### Wifi Module
 
 
-### Packages installed
+### Install packages
 ```console
-apt install phpmyadmin
+sudo apt install phpmyadmin
+sudo apt install shellinabox
+sudo apt install iftop
+sudo apt install htop
 ```
 ### Configurations
 
