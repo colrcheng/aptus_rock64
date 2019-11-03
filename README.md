@@ -14,6 +14,23 @@ sudo apt install iftop
 sudo apt install htop
 ```
 ### Configurations
+#### dhcpd.conf
+```bash
+interface =wlan0
+driver=nl80211
+ctrl_interface=/var/run/hostapd
+ctrl_interface_group=0
+hw_mode=g
+country_code=US
+channel=11
+auth_algs=1
+wpa=0
+macaddr_acl=0
+disassoc_low_ack=0
+#ieee80211n=1
+#wmm_enabled=1
+#ht_capab=[HT40-][SHORT-GI-20][SHORT-GI-40]
+```
 
 
 ### Install Jupter Notebook
