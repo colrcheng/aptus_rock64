@@ -13,14 +13,12 @@
 
 ### Install Jupter Notebook
 
-#### some dependencies:
-``
-sudo apt-get update;
-sudo apt-get install python3-dev python3-pip build-essential libzmq3-dev;
-sudo apt-get install python-zmq
-sudo python3 -m pip install --upgrade pip
-sudo pip3 install jupyter
-``
+#### Some dependencies:
+``sudo apt-get update ``
+``sudo apt-get install python3-dev python3-pip build-essential libzmq3-dev``
+``sudo apt-get install python-zmq``
+``sudo python3 -m pip install --upgrade pip``
+``sudo pip3 install jupyter``
 
 #### Running jupyter notebook
 ``
