@@ -1,6 +1,6 @@
 # aptus_rock64
 ## Aptus Rock64 Development
-
+Built on this image: 
 https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz
 
 ### Wifi Module
