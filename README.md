@@ -1,5 +1,5 @@
 # aptus_rock64
-## Aptus rock64 development
+## Aptus Rock64 Development
 
 ### Wifi Module
 
