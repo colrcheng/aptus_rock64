@@ -18,17 +18,17 @@
 
 ``sudo apt-get install python3-dev python3-pip build-essential libzmq3-dev``
 
-``sudo apt-get install python-zmq
+``sudo apt-get install python-zmq``
 
-sudo python3 -m pip install --upgrade pip
+``sudo python3 -m pip install --upgrade pip``
 
-sudo pip3 install jupyter``
+``sudo pip3 install jupyter``
 
 #### Running jupyter notebook
-``
-jupyter notebook --generate-config;
-jupyter notebook --ip=0.0.0.0 --no-browser; # now it accessable on the whole network;
-``
+``jupyter notebook --generate-config``
+
+``jupyter notebook --ip=0.0.0.0 --no-browser``
+
 #### Running on startup:
 Edit: /etc/crontab at the bottom of the file (after the last '#'):
 ``
