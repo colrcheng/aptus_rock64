@@ -64,5 +64,5 @@ Edit: /etc/crontab at the bottom of the file
 ```bash
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-@reboot pi cd /home/pi/ && jupyter notebook --ip=0.0.0.0 --no-browser &
+@reboot rock64 cd /home/rock64/ && jupyter notebook --ip=0.0.0.0 --no-browser &
 ```
