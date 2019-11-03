@@ -5,6 +5,8 @@ https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-mi
 
 ### Wifi Module
 
+* https://store.pine64.org/?product=usb-wifi-802-11bgn-rtl8188eu-for-rock64
+* https://store.pine64.org/?product=rock64-usb-3-0-dual-band-1200mbps-wifi-802-11abgnac-rtl8812au-adapter
 
 ### Install packages
 ```console
