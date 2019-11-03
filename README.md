@@ -5,9 +5,9 @@
 
 
 ### Packages installed
-``apt install phpmyadmin``
-
-
+```console
+apt install phpmyadmin
+```
 ### Configurations
 
 
