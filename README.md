@@ -31,8 +31,8 @@
 
 #### Running on startup:
 Edit: /etc/crontab at the bottom of the file (after the last '#'):
-``
+```bash
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
 @reboot pi cd /home/pi/ && jupyter notebook --ip=0.0.0.0 --no-browser &
-``
+```
