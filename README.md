@@ -4,7 +4,7 @@ Built on this image:
 https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz
 
 ### Wifi Module
-#### Two usb Wifi Adapters
+#### Two USB WiFi Adapters
 * rtl8188eu https://store.pine64.org/?product=usb-wifi-802-11bgn-rtl8188eu-for-rock64
 * rtl8812au https://store.pine64.org/?product=rock64-usb-3-0-dual-band-1200mbps-wifi-802-11abgnac-rtl8812au-adapter
 
