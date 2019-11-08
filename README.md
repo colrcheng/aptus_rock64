@@ -33,7 +33,9 @@ Source: https://sourceforge.net/projects/win32diskimager/
 #### Steps
 1. Insert microSD card to Aptus/Rock64 board
 1. Connect Aptus/Rock64 to the monitor, keyboard and USB wifi adapter.
-1. Poweron the Aptus/Rock64 by connecting it to the powerbank or AC adapter.
+1. Power on the Aptus/Rock64 by connecting it to the powerbank or AC adapter.
+1. Change the default password for rock64 user account.
+1. Resize the root partition (This should be done automatically). 
 
 
 ### Wifi Module
