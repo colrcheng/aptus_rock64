@@ -1,13 +1,20 @@
 # Aptus 2019 - Build on Rock64 Single Board Computer(SBC)
 ## Build Aptus image from Scratch
 
-### Download on this image: 
-https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz (243MB)
+### Download on this image and write it to a MicroSD card: 
+Source:https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz (243MB)
 
 #### Extract .xz files
 ```console
-$ tar xvf filename.tar.xz
+$ sudo apt-get install xz-utils
+$ unxz file.xz
 ```
+
+### Write image to a MicroSD card
+Source:https://www.raspberrypi.org/documentation/installation/installing-images/
+* DD command
+* Etcher
+* win32diskimager
 
 ### Wifi Module
 #### Two USB WiFi Adapters
