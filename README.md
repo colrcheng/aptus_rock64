@@ -13,9 +13,9 @@ $ unxz file.xz
 #### Write image to a MicroSD card
 Source:https://www.raspberrypi.org/documentation/installation/installing-images/
 * DD command
-'''console
+```console
 $sudo dd if=/path/to/sdcard.img of=/dev/sd(a,b,c) bs=4096 status=progress
-'''
+```
 * Etcher
 * win32diskimager
 
