@@ -35,7 +35,9 @@ Source: https://sourceforge.net/projects/win32diskimager/
 1. Connect Aptus/Rock64 to the monitor, keyboard and USB wifi adapter.
 1. Power on the Aptus/Rock64 by connecting it to the powerbank or AC adapter.
 1. Change the default password for rock64 user account.
-1. Resize the root partition (This should be done automatically). 
+1. Expand the root partition to max available space on the microSD card. This should be done automatically. 
+
+### Shrink the rootfs Partition
 
 
 ### Wifi Module
