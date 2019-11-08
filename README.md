@@ -2,7 +2,7 @@
 ## Build Aptus image from scratch
 
 ### Download on this image and write it to a MicroSD card: 
-Source:https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz (243MB)
+Source: [Ayunfan Rock64 Stretch minimal 0.9.14](https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz) (243MB)
 
 #### Extract .xz files
 ```console
@@ -29,7 +29,7 @@ Source: https://sourceforge.net/projects/win32diskimager/
 * A HDMI capable monitor and HDMI cable
 * Wireless/Wired keyboard
 * Power bank or AC Adapter
-* ROCK64 USB WIFI 802.11B/G/N (RTL8188EU) https://store.pine64.org/?product=usb-wifi-802-11bgn-rtl8188eu-for-rock64
+* [ROCK64 USB WIFI 802.11B/G/N (RTL8188EU)](https://store.pine64.org/?product=usb-wifi-802-11bgn-rtl8188eu-for-rock64)
 #### Steps
 1. Insert microSD card to Aptus/Rock64 board
 1. Connect Aptus/Rock64 to the monitor, keyboard and USB wifi adapter.
