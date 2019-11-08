@@ -1,5 +1,5 @@
 # Aptus 2019 - Build on Rock64 Single Board Computer(SBC)
-## Build Aptus image from Scratch
+## Build Aptus image from scratch
 
 ### Download on this image and write it to a MicroSD card: 
 Source:https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz (243MB)
@@ -21,6 +21,15 @@ $sudo sync
 Source: https://www.balena.io/etcher/
 * win32diskimager
 Source: https://sourceforge.net/projects/win32diskimager/
+
+### Boot Aptus/Rock64 for the first time
+#### Hardware Required
+* Aptus/Rock64 board
+* A microSD card with Ayunfan Rock64 Strech minimal image
+* A HDMI capable monitor and HDMI cable
+* Wireless/Wired keyboard
+* Power bank or AC Adapter
+* USB Wifi adapter, rtl8188eu https://store.pine64.org/?product=usb-wifi-802-11bgn-rtl8188eu-for-rock64
 
 ### Wifi Module
 #### Two USB WiFi Adapters
