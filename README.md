@@ -39,6 +39,9 @@ Source: https://sourceforge.net/projects/win32diskimager/
 
 ### Shrink the rootfs Partition
 
+Reasons for shrinking the rootfs partition (partition 7):
+* Resize the image for a smaller size microSD card. [SD cards may have less space than advertised](https://www.diyphotography.net/memory-cards-have-less-space-advertised-here-why/). 
+
 
 ### Wifi Module
 #### Two USB WiFi Adapters
