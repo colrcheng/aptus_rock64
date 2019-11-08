@@ -23,13 +23,18 @@ Source: https://www.balena.io/etcher/
 Source: https://sourceforge.net/projects/win32diskimager/
 
 ### Boot Aptus/Rock64 for the first time
-#### Hardware Required
+#### Hardware 
 * Aptus/Rock64 board
 * A microSD card with Ayunfan Rock64 Strech minimal image
 * A HDMI capable monitor and HDMI cable
 * Wireless/Wired keyboard
 * Power bank or AC Adapter
-* USB Wifi adapter, rtl8188eu https://store.pine64.org/?product=usb-wifi-802-11bgn-rtl8188eu-for-rock64
+* ROCK64 USB WIFI 802.11B/G/N (RTL8188EU) https://store.pine64.org/?product=usb-wifi-802-11bgn-rtl8188eu-for-rock64
+#### Steps
+1. Insert microSD card to Aptus/Rock64 board
+1. Connect Aptus/Rock64 to the monitor, keyboard and USB wifi adapter.
+1. Poweron the Aptus/Rock64 by connecting it to the powerbank or AC adapter.
+
 
 ### Wifi Module
 #### Two USB WiFi Adapters
