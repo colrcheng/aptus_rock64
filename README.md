@@ -11,13 +11,16 @@ $ unxz file.xz
 ```
 
 #### Write image to a MicroSD card
-Source:https://www.raspberrypi.org/documentation/installation/installing-images/
+Source: https://www.raspberrypi.org/documentation/installation/installing-images/
 * DD command
 ```console
 $sudo dd if=/path/to/sdcard.img of=/dev/sd(a,b,c) bs=4096 status=progress
+$sudo sync
 ```
 * Etcher
+Source: https://www.balena.io/etcher/
 * win32diskimager
+Source: https://sourceforge.net/projects/win32diskimager/
 
 ### Wifi Module
 #### Two USB WiFi Adapters
