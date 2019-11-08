@@ -1,7 +1,13 @@
-# aptus_rock64
-## Aptus Rock64 Development
-Built on this image: 
-https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz
+# Aptus 2019 - Build on Rock64 Single Board Computer(SBC)
+## Build Aptus image from Scratch
+
+### Download on this image: 
+https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz (243MB)
+
+#### Extract .xz files
+```console
+$ tar xvf filename.tar.xz
+```
 
 ### Wifi Module
 #### Two USB WiFi Adapters
