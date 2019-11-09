@@ -62,7 +62,7 @@ References:
 * https://www.itzgeek.com/how-tos/mini-howtos/change-default-network-name-ens33-to-old-eth0-on-ubuntu-16-04.html
 
 ```console
-sudo ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
+$sudo ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
 ```
 
 ### Wifi Module
