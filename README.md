@@ -41,6 +41,10 @@ Source: https://sourceforge.net/projects/win32diskimager/
 
 Reasons for shrinking the rootfs partition (partition 7):
 * Resize the image for a smaller size microSD card. [SD cards may have less space than claimed](https://www.picstop.co.uk/news/why-do-memory-cards-have-less-space-than-advertised.html). 
+* Take less stroage space and easy for sharing.
+* Take less time to transfer over the network and much less time to write to SD cards.
+
+
 
 
 ### Wifi Module
