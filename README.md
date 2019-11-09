@@ -45,8 +45,8 @@ Reasons for shrinking the rootfs partition (partition 7):
 * Take less time to transfer over the network and much less time to write to SD cards.
 
 References: 
-*[resize_rootfs.h](https://github.com/ayufan-rock64/linux-package/blob/master/root/usr/local/sbin/resize_rootfs.sh)
-*[Resize by sfdisk](http://karelzak.blogspot.com/2015/05/resize-by-sfdisk.html)
+* [resize_rootfs.h](https://github.com/ayufan-rock64/linux-package/blob/master/root/usr/local/sbin/resize_rootfs.sh)
+* [Resize by sfdisk](http://karelzak.blogspot.com/2015/05/resize-by-sfdisk.html)
 ```console
 $sudo sgdisk -e /dev/sd*(or mmcblk*)
 $sudo echo ", -100M" | sudo sfdisk -N7 /dev/sd*(or mmcblk*)
