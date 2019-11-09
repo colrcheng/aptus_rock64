@@ -10,7 +10,7 @@ $ sudo apt-get install xz-utils
 $ unxz file.xz
 ```
 
-#### Write image to a MicroSD card
+#### Write image to a microSD card
 Source: https://www.raspberrypi.org/documentation/installation/installing-images/
 * DD command
 ```console
@@ -54,7 +54,16 @@ $sudo partprobe /dev/sd*(or mmcblk*)
 $sudo resize2fs /dev/sd*p7(or mmcblk*p7)
 ```
 
+### WiFi hotspot
+#### Disable predictable network interface naming
+References: 
+* https://askubuntu.com/questions/826325/how-to-revert-usb-wifi-interface-name-from-wlxxxxxxxxxxxxx-to-wlanx
+* https://askubuntu.com/questions/628217/use-of-predictable-network-interface-names-with-alternate-kernels
+* https://www.itzgeek.com/how-tos/mini-howtos/change-default-network-name-ens33-to-old-eth0-on-ubuntu-16-04.html
 
+```console
+sudo ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
+```
 
 ### Wifi Module
 #### Two USB WiFi Adapters
