@@ -166,8 +166,8 @@ $wget -q https://packages.sury.org/php/apt.gpg -O- | sudo apt-key add -
 $echo "deb https://packages.sury.org/php/ stretch main" | sudo tee /etc/apt/sources.list.d/php.list
 $sudo apt update
 $sudo apt install php7.3
-#Required software/packages by Moodle
 $sudo apt install graphviz aspell ghostscript clamav php7.3-pspell php7.3-curl php7.3-gd php7.3-intl php7.3-mysql php7.3-xml php7.3-xmlrpc php7.3-ldap php7.3-zip php7.3-soap php7.3-mbstring
+$sudo apt install sqlite3 php7.3-sqlite3
 ```
 /etc/apache2/mods-enabled/dir.conf
 ```bash
