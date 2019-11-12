@@ -37,7 +37,7 @@ Source: https://sourceforge.net/projects/win32diskimager/
 1. Change the default password for rock64 user account.
 1. Expand the root partition to max available space on the microSD card. This should be done automatically. 
 
-#### Backup image: AptusRock641108V01.img
+#### Backup image: AptusRock6420191108V01.img
 
 ### Shrink the rootfs Partition
 
@@ -55,7 +55,7 @@ $sudo echo ", -100M" | sudo sfdisk -N7 /dev/sd*(or mmcblk*)
 $sudo partprobe /dev/sd*(or mmcblk*)
 $sudo resize2fs /dev/sd*p7(or mmcblk*p7)
 ```
-#### Backup image: AptusRock641108V02.img 
+#### Backup image: AptusRock6420191108V02.img 
 
 ### WiFi hotspot
 #### Disable predictable network interface naming
@@ -119,7 +119,7 @@ static routers=192.168.169.2
 dhcp-range=192.168.169.10,192.168.169.250,255.255.255.0,2h
 dhcp-option=3,192.168.169.2
 ```
-##### Backup image: AptusRock641111V03.img
+##### Backup image: AptusRock6420191111V03.img
 ##### Update lighttpd.conf
 ```bash
 server.document-root="/var/www/webui"
