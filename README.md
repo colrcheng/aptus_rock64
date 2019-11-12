@@ -141,6 +141,18 @@ $sudo apt install apache2
 $sudo a2enmod rewrite
 $sudo systemctl restart apache2
 ```
+/etc/apache2/sites-available/000-default.conf
+```bash
+<VirtualHost *:80>
+    <Directory /var/www/html>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    . . .
+</VirtualHost>
+```
 
 ### Install packages
 ```console
