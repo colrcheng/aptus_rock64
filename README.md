@@ -63,6 +63,7 @@ References:
 
 ```console
 $sudo ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
+$sudo reboot
 $sudo ifconfig
 ```
 
@@ -70,6 +71,22 @@ $sudo ifconfig
 ```console
 $sudo apt update
 $sudo apt upgrade
+```
+
+#### WiFi hotspot
+
+##### Install WiFi configuration portal
+Source: https://github.com/billz/raspap-webgui
+```console
+$wget -q https://git.io/voEUQ -O /tmp/raspap && bash /tmp/raspap
+```
+
+##### Disable wpa_supplicant
+References:
+* https://www.raspberrypi.org/forums/viewtopic.php?t=212574
+* https://www.centos.org/forums/viewtopic.php?t=51125
+```console
+$sudo systemctl mask wpa_supplicant.service
 ```
 
 ### Wifi Module
