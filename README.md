@@ -63,6 +63,13 @@ References:
 
 ```console
 $sudo ln -s /dev/null /etc/udev/rules.d/80-net-setup-link.rules
+$sudo ifconfig
+```
+
+#### Update the system
+```console
+$sudo apt update
+$sudo apt upgrade
 ```
 
 ### Wifi Module
