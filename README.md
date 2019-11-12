@@ -153,6 +153,25 @@ $sudo systemctl restart apache2
     . . .
 </VirtualHost>
 ```
+#### MySQL/MariaDB
+```console
+$sudo apt install mariadb-server
+$sudo mysql_secure_installation
+```
+#### PHP 7.3
+```console
+$sudo apt install ca-certificates apt-transport-https 
+$wget -q https://packages.sury.org/php/apt.gpg -O- | sudo apt-key add -
+$echo "deb https://packages.sury.org/php/ stretch main" | sudo tee /etc/apt/sources.list.d/php.list
+$sudo apt update
+$sudo apt install php7.3
+```
+/etc/apache2/mods-enabled/dir.conf
+```bash
+<IfModule mod_dir.c>
+    DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+```
 
 ### Install packages
 ```console
