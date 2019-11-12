@@ -76,7 +76,7 @@ $sudo apt update
 $sudo apt upgrade
 ```
 
-#### WiFi hotspot
+#### WiFi portal/webUI
 
 ##### Install WiFi configuration portal
 Source: https://github.com/billz/raspap-webgui
@@ -127,6 +127,20 @@ server.port=81
 ```
 * Move the webUI files to /var/www/webui
 * Change the default password for WebUI.
+
+### LAMP 
+References: 
+* https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mariadb-php-lamp-stack-debian9
+* https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04
+* https://tecadmin.net/install-php-debian-9-stretch/
+* https://medium.com/andrewmmc-io/upgrade-php-version-to-7-2-from-7-0-c005a0926642
+
+#### Apache2
+```console
+$sudo apt install apache2
+$sudo a2enmod rewrite
+$sudo systemctl restart apache2
+```
 
 ### Install packages
 ```console
