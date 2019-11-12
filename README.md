@@ -125,7 +125,8 @@ dhcp-option=3,192.168.169.2
 server.document-root="/var/www/webui"
 server.port=81
 ```
-Move the webUI files to /var/www/webui
+* Move the webUI files to /var/www/webui
+* Change the default password for WebUI.
 
 ### Install packages
 ```console
