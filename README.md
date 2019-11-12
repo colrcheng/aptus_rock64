@@ -119,7 +119,13 @@ static routers=192.168.169.2
 dhcp-range=192.168.169.10,192.168.169.250,255.255.255.0,2h
 dhcp-option=3,192.168.169.2
 ```
-#### Backup image: AptusRock641111V03.img
+##### Backup image: AptusRock641111V03.img
+##### Update lighttpd.conf
+```bash
+server.document-root="/var/www/webui"
+server.port=81
+```
+Move the webUI files to /var/www/webui
 
 ### Install packages
 ```console
