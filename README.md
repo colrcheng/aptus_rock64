@@ -139,6 +139,7 @@ References:
 ```console
 $sudo apt install apache2
 $sudo a2enmod rewrite
+$sudo a2dismod reqtimeout
 $sudo systemctl restart apache2
 ```
 /etc/apache2/sites-available/000-default.conf
@@ -165,12 +166,22 @@ $wget -q https://packages.sury.org/php/apt.gpg -O- | sudo apt-key add -
 $echo "deb https://packages.sury.org/php/ stretch main" | sudo tee /etc/apt/sources.list.d/php.list
 $sudo apt update
 $sudo apt install php7.3
+#Required software/packages by Moodle
+$sudo apt install graphviz aspell ghostscript clamav php7.3-pspell php7.3-curl php7.3-gd php7.3-intl php7.3-mysql php7.3-xml php7.3-xmlrpc php7.3-ldap php7.3-zip php7.3-soap php7.3-mbstring
 ```
 /etc/apache2/mods-enabled/dir.conf
 ```bash
 <IfModule mod_dir.c>
     DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 </IfModule>
+```
+/etc/php/7.3/apache2/php.ini
+```bash
+post_max_size = 2000M
+upload_max_size = 2000M
+max_input_time = 3600
+max_execution_time = 3600
+memory_limit = 256M
 ```
 
 ### Install packages
