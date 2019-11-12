@@ -88,6 +88,24 @@ References:
 ```console
 $sudo systemctl mask wpa_supplicant.service
 ```
+##### Update hostapd.conf
+```bash
+interface =wlan0
+driver=nl80211
+ctrl_interface=/var/run/hostapd
+ctrl_interface_group=0
+hw_mode=g
+country_code=US
+channel=11
+auth_algs=1
+ssid=AptusRock64
+wpa=0
+macaddr_acl=0
+disassoc_low_ack=0
+#ieee80211n=1
+#wmm_enabled=1
+#ht_capab=[HT40-][SHORT-GI-20][SHORT-GI-40]
+```
 
 ### Wifi Module
 #### Two USB WiFi Adapters
@@ -102,23 +120,7 @@ sudo apt install iftop
 sudo apt install htop
 ```
 ### Configurations
-#### hostapd.conf
-```bash
-interface =wlan0
-driver=nl80211
-ctrl_interface=/var/run/hostapd
-ctrl_interface_group=0
-hw_mode=g
-country_code=US
-channel=11
-auth_algs=1
-wpa=0
-macaddr_acl=0
-disassoc_low_ack=0
-#ieee80211n=1
-#wmm_enabled=1
-#ht_capab=[HT40-][SHORT-GI-20][SHORT-GI-40]
-```
+
 #### dhcpd.conf
 ```bash
 static ip_address=192.168.169.2
