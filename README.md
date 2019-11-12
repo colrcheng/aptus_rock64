@@ -106,11 +106,17 @@ disassoc_low_ack=0
 #wmm_enabled=1
 #ht_capab=[HT40-][SHORT-GI-20][SHORT-GI-40]
 ```
+##### Update dhcpd.conf
+```bash
+static ip_address=192.168.169.2/24
+static routers=192.168.169.2
+```
+##### Update dnsmasq.conf
+```bash
+dhcp-range=192.168.169.10,192.168.169.250,255.255.255.0,2h
+dhcp-option=3,192.168.169.2
+```
 
-### Wifi Module
-#### Two USB WiFi Adapters
-* rtl8188eu https://store.pine64.org/?product=usb-wifi-802-11bgn-rtl8188eu-for-rock64
-* rtl8812au https://store.pine64.org/?product=rock64-usb-3-0-dual-band-1200mbps-wifi-802-11abgnac-rtl8812au-adapter
 
 ### Install packages
 ```console
@@ -119,19 +125,5 @@ sudo apt install shellinabox
 sudo apt install iftop
 sudo apt install htop
 ```
-### Configurations
-
-#### dhcpd.conf
-```bash
-static ip_address=192.168.169.2
-static routers=192.168.169.2
-```
-#### dnsmasq.conf
-```bash
-dhcp-range=192.168.169.10,192.168.169.250,2h
-dhcp-option=3,192.168.169.2
-```
-
-### Install Jupter Notebook
 
 
