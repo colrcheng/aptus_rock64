@@ -203,6 +203,10 @@ Reference: https://linuxhostsupport.com/blog/how-to-install-owncloud-10-on-debia
 
 ### Kiwix
 References:
+* https://wiki.kiwix.org/wiki/Kiwix-manage
+* https://wiki.kiwix.org/wiki/Kiwix-serve
+* https://download.kiwix.org/zim/
+
 
 
 
