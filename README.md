@@ -194,6 +194,14 @@ sudo apt install htop
 
 ### WordPress
 Reference: https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lamp-on-debian-9
+# Download latest WordPress
+```console
+$wget https://wordpress.org/latest.tar.gz
+$tar -xzvf latest.tar.gz
+$sudo mv wordpress/* /var/www/html
+```
+* Create database and db user.
+
 
 ### Moodle
 Reference: https://docs.moodle.org/37/en/Step-by-step_Installation_Guide_for_Ubuntu
