@@ -192,4 +192,17 @@ sudo apt install iftop
 sudo apt install htop
 ```
 
+### WordPress
+Reference: https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lamp-on-debian-9
+
+### Moodle
+Reference: https://docs.moodle.org/37/en/Step-by-step_Installation_Guide_for_Ubuntu
+
+### ownCloud
+Reference: https://linuxhostsupport.com/blog/how-to-install-owncloud-10-on-debian-9/
+
+### Kiwix
+References:
+
+
 
