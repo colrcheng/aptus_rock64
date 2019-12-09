@@ -128,6 +128,11 @@ server.port=81
 * Move the webUI files to /var/www/webui
 * Change the default password for WebUI.
 
+#### Create a new sudo user aptus64
+Reference: 
+https://www.digitalocean.com/community/tutorials/how-to-add-delete-and-grant-sudo-privileges-to-users-on-a-debian-vps
+
+
 ### LAMP 
 References: 
 * https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mariadb-php-lamp-stack-debian9
