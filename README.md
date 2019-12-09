@@ -147,6 +147,8 @@ $sudo a2enmod rewrite
 $sudo a2dismod reqtimeout
 $sudo systemctl restart apache2
 ```
+Reference: https://www.linode.com/docs/web-servers/apache/how-to-set-up-htaccess-on-apache/
+##### Enable htaccess:
 /etc/apache2/sites-available/000-default.conf
 ```bash
 <VirtualHost *:80>
