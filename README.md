@@ -197,6 +197,7 @@ sudo apt install phpmyadmin
 sudo apt install shellinabox
 sudo apt install iftop
 sudo apt install htop
+sudo apt install exfat-fuse exfat-utils
 ```
 
 ### WordPress
@@ -215,6 +216,8 @@ Reference: https://docs.moodle.org/37/en/Step-by-step_Installation_Guide_for_Ubu
 
 ### ownCloud
 Reference: https://linuxhostsupport.com/blog/how-to-install-owncloud-10-on-debian-9/
+
+##### Backup image: AptusRock6420191220V04.img
 
 ### Kiwix
 References:
