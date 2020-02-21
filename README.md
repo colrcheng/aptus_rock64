@@ -1,10 +1,8 @@
-# Aptus 2020 - Build on Rock64 Single Board Computer(SBC)  - Armbian image
+# Aptus 2020 - Build on Rock64 Single Board Computer(SBC)  - Ayufan image
 ## Build Aptus image from scratch
 
 ### Download on this image and write it to a MicroSD card: 
 Source: [Ayunfan Rock64 Stretch minimal 0.9.14](https://github.com/ayufan-rock64/linux-build/releases/download/0.9.14/stretch-minimal-rock64-0.9.14-1159-arm64.img.xz) (243MB)
-
-
 
 #### Extract .xz files
 ```console
