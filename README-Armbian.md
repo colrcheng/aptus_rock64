@@ -7,4 +7,4 @@ Download Armbian image from here: [Armbian Debian Buster image](https://dl.armbi
 Tools:
 * Win32 Disk Imager [Download link](https://sourceforge.net/projects/win32diskimager/) 
 * Balena Etcher [Download link](https://www.balena.io/etcher/)
-* DD command [link](https://en.wikipedia.org/wiki/Dd_(Unix)) 
+* DD command [Wikipedia link](https://en.wikipedia.org/wiki/Dd_(Unix)) 
