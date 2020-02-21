@@ -1,4 +1,4 @@
-# Aptus 2019 - Build on Rock64 Single Board Computer(SBC)
+# Aptus 2019 - Build on Rock64 Single Board Computer(SBC)  - Ayunfan image
 ## Build Aptus image from scratch
 
 ### Download on this image and write it to a MicroSD card: 
